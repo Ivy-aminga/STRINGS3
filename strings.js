@@ -42,17 +42,17 @@ console.log(look);
 // 2. LowerCase: "amazing", "UndERneath"
 // 3. Title case "A wonderful world"
 
-const word1 = "wonderful";
-let result = word1.toUpperCase("wonderful");
+const up = "wonderful";
+let result = upper.toUpperCase("wonderful");
 console.log(result);
 
-const word2 = "amazing";
-const word3 = "UndERneath"
-let convert = word2.toLowerCase("amazing");
-let convert1 = word3.toLowerCase("UndERneath");
+const low = "amazing";
+const lower = "UndERneath"
+let lowest = low.toLowerCase("amazing");
+let upper = lower.toLowerCase("UndERneath");
 
-console.log(convert);
-console.log(convert1);
+console.log(lowest);
+console.log(upper);
 
 let word4 = "A wonderful world";
 word4=word4.split(" ").map(([firstChar,...rest])=>firstChar.toUpperCase()+rest.join("").toLowerCase()).join(" ");
