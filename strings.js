@@ -53,7 +53,7 @@ const low = "amazing";
 const lower = low.toLowerCase();
 console.log(lower);
 
-const small = "UndERneath";
+const small = "BEneath";
 const smaller = small.toLowerCase();
 console.log(lower);
 
